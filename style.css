@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 
+    - Mobile: 375px
+    - Desktop: 1440px; */
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.box-content{
+    display: flex;
+    width: 800px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.first-row{
+    background-color: hsl(31, 77%, 52%);
+    padding: 1cm;
+}
+.second-row{
+    background-color: hsl(184, 100%, 22%);
+    padding: 1cm;
+}
+.third-row{
+    background-color: hsl(179, 100%, 13%);
+    padding: 1cm;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 4px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.B1{
+    background-color: white;
+    color: orange;
+    border: : 2px solid #ffffff;
+}
+/* .B1:hover{
+    background-color: #ffffff;
+    color: white;
+} */
+.B2{
+    color: rgb(37, 95, 112);
+}
+/* .B2:hover{
+    background-color: rgb(37, 95, 112);
+} */
+.B3{
+    color: rgb(1, 49, 49);
+}
+/* .B3:hover{
+    background-color: rgb(1, 49, 49);
+} */
+h3{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 1cm;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 2cm;
+    Font size: 15px
+}
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400 */
+
+/* - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
