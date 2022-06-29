@@ -9,6 +9,7 @@
 
 body{
     background-color: hsl(0, 0%, 95%);
+    Font size: 15px;
 }
 main{
     width: 50%;
@@ -46,19 +47,20 @@ button{
     font-size: 15px;
     display: inline-block;
     border-radius: 30px;
-    margin: 4px;
+    margin: 4px 2px;
     transition-duration: 0.5s;
     cursor: pointer;
 }
 .B1{
     background-color: white;
-    color: orange;
-    border: : 2px solid #ffffff;
+    color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+    
 }
-/* .B1:hover{
-    background-color: #ffffff;
+.B1:hover{
+    background-color: hsl(31, 77%, 52%);
     color: white;
-} */
+}
 .B2{
     color: rgb(37, 95, 112);
 }
@@ -78,7 +80,6 @@ h3{
 p{
     color: hsla(0, 0%, 100%, 0.75);
     padding-bottom: 2cm;
-    Font size: 15px
 }
 
 /* # Front-end Style Guide
