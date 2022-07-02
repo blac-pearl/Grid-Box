@@ -1,17 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* width: 
-    - Mobile: 375px
-    - Desktop: 1440px; */
 }
 
-body{
+body {
     background-color: hsl(0, 0%, 95%);
-    Font size: 15px;
+    font-size: 15px;
 }
-main{
+
+main {
     width: 50%;
     margin: auto;
     display: flex;
@@ -19,25 +17,30 @@ main{
     height: 100vh;
     flex-direction: column;
 }
-.box-content{
+
+.box-content {
     display: flex;
     width: 800px;
     border-radius: 5px;
     overflow: hidden;
 }
-.first-row{
+
+.first-row {
     background-color: hsl(31, 77%, 52%);
     padding: 1cm;
 }
-.second-row{
+
+.second-row {
     background-color: hsl(184, 100%, 22%);
     padding: 1cm;
 }
-.third-row{
+
+.third-row {
     background-color: hsl(179, 100%, 13%);
     padding: 1cm;
 }
-button{
+
+button {
     background-color: hsl(0, 0%, 95%);
     border: none;
     color: white;
@@ -51,37 +54,61 @@ button{
     transition-duration: 0.5s;
     cursor: pointer;
 }
-.B1{
+
+.B1 {
     background-color: white;
     color: hsl(31, 77%, 52%);
     border: 2px solid white;
-    
 }
-.B1:hover{
+
+.B1:hover {
     background-color: hsl(31, 77%, 52%);
     color: white;
 }
-.B2{
+
+.B2 {
+    background-color: white;
     color: rgb(37, 95, 112);
-}
-/* .B2:hover{
-    background-color: rgb(37, 95, 112);
-} */
-.B3{
-    color: rgb(1, 49, 49);
-}
-/* .B3:hover{
-    background-color: rgb(1, 49, 49);
-} */
-h3{
-    color: hsl(0, 0%, 95%);
-    padding-bottom: 1cm;
-}
-p{
-    color: hsla(0, 0%, 100%, 0.75);
-    padding-bottom: 2cm;
+    border: 2px solid white;
 }
 
+.B2:hover{
+    background-color: rgb(37, 95, 112);
+    color: white;
+}
+.B3 {
+    background-color: white;
+    color: rgb(1, 49, 49);
+    border: 2px solid white;
+}
+
+.B3:hover{
+    background-color: rgb(1, 49, 49);
+    color: white;
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    font-family: 'Big Shoulders Display', cursive;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 2cm;
+    font-family: 'Lexend Deca', sans-serif;
+}
+ /* For Mobile */
+ @media screen and (max-width: 500px) {
+    .view {
+        width: 375px;
+    }
+ }
+ /* For Desktop */
+ @media screen and (min-width: 500px) and (max-width: 1600px) {
+    .view {
+        width: 1440px;
+    }
+ }
 /* # Front-end Style Guide
 
 ## Layout
@@ -89,18 +116,4 @@ p{
 The designs were created to the following widths:
 
 - Mobile: 375px
-- Desktop: 1440px
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400 */
-
-/* - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700 */
+- Desktop: 1440px */
